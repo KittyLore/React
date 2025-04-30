@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer>
-      <p>© 2025 Mi Proyecto Integrador</p>
+    <footer style={{ background: '#222', color: 'white', padding: '1rem', marginTop: '2rem', textAlign: 'center' }}>
+      <p>&copy; Cogela suave </p>
     </footer>
   );
 };

@@ -3,7 +3,7 @@
 }
 
 header {
-  background-color: #333;
+  background-color: #00e6ee;
   color: white;
   padding: 10px;
   text-align: center;
@@ -19,12 +19,12 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: rgb(0, 255, 238);
   text-decoration: none;
 }
 
 footer {
-  background-color: #333;
+  background-color: #006969;
   color: white;
   text-align: center;
   padding: 10px;
@@ -38,7 +38,25 @@ main {
   text-align: center;
 }
 
-img {
-  max-width: 100%;
+.img {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
   height: auto;
+}
+
+.titulo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.App {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #000000;
+  text-align: center;
 }
